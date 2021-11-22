@@ -687,12 +687,10 @@ export default {
   margin-bottom: 40px;
 }
 
-.create__photo-wrapper {
-  position: relative;
-}
-
 .create__photo-wrapper,
 .create__photo-btn {
+  position: relative;
+
   width: 126px;
   height: 126px;
 
@@ -700,8 +698,6 @@ export default {
 }
 
 .create__photo-btn {
-  position: relative;
-
   border: 4px solid $purple;
   background-color: #F8F8FE;
 

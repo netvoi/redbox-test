@@ -172,7 +172,7 @@ export default {
       this.$router.push({ path: '/create-event' });
     },
     sendModeration() {
-      alert('Отправлено на модернизацию');
+      alert('Отправлено на модерацию');
     },
     convertedDate(date) {
       const dateParts = date.split('/');
